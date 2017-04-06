@@ -20,9 +20,7 @@ def get_min_flip(s):
 def main():
 	T = int(raw_input().strip())
 
-	pancakes = []
-	for _ in range(T):
-		pancakes.append(raw_input().strip())
+	pancakes = [raw_input().strip() for _ in range(T)]
 
 	for index, each_cake in enumerate(pancakes):
 		print 'Case #%d: %d' %(index+1, get_min_flip(each_cake))

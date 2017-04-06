@@ -24,9 +24,8 @@ def check_num(n):
 
 def main():
 	T = int(raw_input().strip())
-	N = []
-	for _ in range(T):
-		N.append(int(raw_input().strip()))
+	
+	N = [int(raw_input().strip()) for _ in range(T)]
 
 	for index in range(T):
 		n = N[index]
