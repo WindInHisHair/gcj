@@ -1,3 +1,9 @@
+*.pyc
+*.txt
+
 *.in
 *.out
+*.out*
 
+*.xml
+*.iml
